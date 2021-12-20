@@ -2,6 +2,11 @@
     font-family: 'Open Sans', sans-serif;
 }
 
+a{
+    text-decoration: none;
+    color: #3367d6;
+}
+
 ul{
     margin: 0;
     padding: 0;
@@ -14,9 +19,12 @@ ul{
 
 /* HEADER */
 header {
-    position: fixed;
     color: #606469;
     width: 100vw;
+    position: fixed;
+    background-color: white;
+    top: 0;
+    right: 0;
 }
 
 
@@ -51,15 +59,18 @@ header {
 }
 
 
-
-
-
-
-
-
-
-
+/* main */
+main{
+    padding-top: 100px;
+}
 .questionsContainer{
-    display: none;
-    margin-top: 200px;
+    width: 50%;
+    margin: 100px auto;
+}
+
+.questionsList {
+    margin-top: 100px;
+}
+.questionsList p{
+    font-size: 14px;
 }
